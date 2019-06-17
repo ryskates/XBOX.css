@@ -1,0 +1,202 @@
+/*
+Find me @Jayraydee on twitter!
+Terms and Conditions:
+No Refunds on digital goods, If you have questions concerning your order please contact us.
+Your purchase grants you the right to use and display the images for commercial use via streaming,
+recorded and rebroadcasted media. 
+Your license does not include the right to redistribute copies in anyway, including but not limited to:
+advertising, stock photography, print sale profits, or resale of any nature. Your purchase of the original
+files releases The Seller from any liability due to loss or damage of the images, and also releases the Seller
+from any obligation to maintain copies of any digital file, image, or photograph. You hereby grant to The 
+Seller the right to use and publish images, graphics, or media to further promote their services, including 
+portfolio, web site, display, advertisement, and editorial use. The Seller agrees to limit the use of these 
+images, graphics, or media to promotional use only.
+*/
+/*BEGIN EditBTW XBOX Controller Styling*/
+/*This class defines the base attributes of the skin*/
+
+.controller.custom{
+    background: url(CONTROLLER.png); 
+    height: 1024px;
+    width: 1024px;
+    background-repeat:no-repeat;
+}
+.custom.disconnected { 
+    background: url(disconnected.png);
+}
+.custom.disconnected div {
+    display: none;
+}
+ .custom .triggers{ 
+    position: absolute;
+    background-repeat:no-repeat;
+} 
+.custom .trigger{
+    height: 1024px;
+    width: 1024px;
+
+    background-repeat:no-repeat;
+}
+.custom .trigger.left{ 
+    height: 1024px;
+    width: 1024px;
+    background: url(C-LEFT.png);
+    position: absolute;
+    background-repeat:no-repeat;
+}
+.custom .trigger.right{
+    height: 1024px;
+    width: 1024px;
+    background: url(C-RIGHT.png);
+    position: absolute;
+    background-repeat:no-repeat;
+}
+.custom .bumper{
+opacity: 0;
+}
+.custom .bumper.pressed{ 
+    opacity: 1;
+}
+.custom .bumper.right{
+    height: 900px;
+    width: 900px;
+    background: url(R.png);
+    position: absolute;
+    background-repeat:no-repeat;
+}
+.custom .bumper.left{
+    height: 900px;
+    width: 900px;
+    background: url(L.png);
+    position: absolute;
+    background-repeat:no-repeat;
+}
+.custom .arrows{
+    position: absolute;
+    width: 205px;
+    height: 19px;
+    top: 250px;
+    left: 291px;
+    background-repeat:no-repeat;
+}
+.custom .back{ /* share */
+    opacity: 0;
+    position: absolute;
+}
+.custom .start{ /* options */
+    opacity: 0;
+    position: absolute;
+}
+.custom .back.pressed{
+    height: 900px;
+    width: 900px;
+    left: -291px;
+    top: -250px;
+    background: url(select.png);
+    position: absolute;
+    opacity: 1;
+} 
+.custom .start.pressed{
+    height: 900px;
+    width: 900px;
+    left: -291px;
+    top: -250px;
+    background: url(START.png);
+    opacity: 1;
+}
+.custom .abxy{
+    position: absolute;
+    background-repeat:no-repeat;
+}
+.custom .button{
+    position: absolute;
+}
+.custom .button.pressed{
+    background-position-y: -00px;
+    margin-top: 0px;
+}
+.custom .a.pressed{ /* X on PS4*/
+    background: url(A.png); 
+    height: 1024px;
+    width: 1024px;
+    background-repeat:no-repeat;
+}
+.custom .b.pressed{ /* circle on PS4*/
+    background: url(B.png);
+    height: 1024px;
+    width: 1024px;
+    background-repeat:no-repeat;
+}
+.custom .x.pressed{ /* square on PS4*/
+    background: url(X.png); 
+    height: 1024px;
+    width: 1024px;
+    background-repeat:no-repeat;
+}
+.custom .y.pressed{ /* Triangle on PS4*/
+    background: url(Y.png) ; 
+    height: 1024px;
+    width: 1024px;
+    background-repeat:no-repeat;
+}
+.custom .sticks{
+    position: absolute;
+    background-repeat:no-repeat;
+}
+.custom .stick{
+    position: absolute;
+}
+.custom .stick.pressed.left{
+filter: invert(1);
+}
+.custom .stick.pressed.right{
+filter: invert(1);
+}
+.custom .stick.left{
+    position: absolute;
+    background: url(STICK.png);
+    height: 1024px;
+    width: 1024px;
+    background-repeat:no-repeat;
+}
+.custom .stick.right{
+    position: absolute;
+    background: url(C-STICK.png);
+    height: 1024px;
+    width: 1024px;
+    background-repeat:no-repeat;
+}
+.custom .dpad{
+    height: 624px;
+    width: 840px;
+    background-repeat:no-repeat;
+}
+.custom .face{
+    background: url(dpad.png);
+    position: absolute;
+}
+.custom .face.right.pressed{
+    background: url(RIGHT.png); 
+    height: 1024px;
+    width: 1024px;
+    background-repeat:no-repeat;
+}
+.custom .face.left.pressed{
+    background: url(LEFT.png); 
+    height: 1024px;
+    width: 1024px;
+    background-repeat:no-repeat;
+}
+.custom .face.up.pressed{
+    background: url(UP.png); 
+    height: 1024px;
+    width: 1024px;
+    background-repeat:no-repeat;
+}
+.custom .face.down.pressed{ 
+    background: url(DOWN.png); 
+    height: 1024px;
+    width: 1024px;
+    background-repeat:no-repeat;
+}
+/*END EditBTW XBOX Controller Styling*/
